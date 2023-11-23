@@ -126,8 +126,8 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 if DEBUG:
-    STRIPE_PUBLISHABLE_KEY = 'pk_test_51KqHH8SIeyPpwH6U9sammw0PglKR5v5RNymdmNU5RgdjmUAtteTaToqCX5xcTlmQsxnx3GJnp1lBGPnEE5WPL95W00sHDJ3szs'
-    STRIPE_SECRET_KEY = 'sk_test_51KqHH8SIeyPpwH6UXIU6JXkww9X4NkNqJsgypvtpbgWFPud2v4S3os3WcjgE3lARykc8vVSfkr9mj4TW458VYYV30094N3JEMN'
+    STRIPE_PUBLISHABLE_KEY = '<your stripe publishable key>'
+    STRIPE_SECRET_KEY = '<your stripe secret key>'
 # else:
 #     STRIPE_PUBLISHABLE_KEY = 'production_publishable_key'
 #     STRIPE_SECRET_KEY = 'production_secret_key'
